@@ -1,21 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <title>Toolkits Search Apps</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400&subset=latin,latin-ext">
 
-    <title>Environmental Solutions Search</title>
-
-    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-
-	    <script>
-      $(document).ready(function() {
-        ToolkitSearch.render('toolkits-search');
-      });
-    </script>
-  <link href="bundle.css" rel="stylesheet"></head>
+    <style type="text/css">
+     body {
+       font-family: 'Lato', san-serif;
+       padding-top: 4em;
+       text-align: center;
+     }
+     header {
+       font-size: 45px;
+       margin: 0 auto;
+       width: 530px;
+     }
+     .wrapper {
+       margin: 20px auto;
+       text-align: center;
+       width: 500px;
+     }
+     table {
+       width: 100%;
+       text-align: left;
+     }
+     td {
+       padding: 10px 0;
+     }
+    </style>
+  </head>
   <body>
-  	<div id="toolkits-search"></div>
-	<script type="text/javascript" src="bundle.js"></script></body>
+    <header>Toolkits Search Apps</header>
+    <div class="wrapper">
+      <table>
+        <tbody>
+          <tr>
+            <td>Environmental Solutions</td>
+            <td><a href="environmental_solutions">Production</a></td>
+          </tr>
+          <tr>
+            <td>Oil and Gas</td>
+            <td><a href="oil_and_gas">Production</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
